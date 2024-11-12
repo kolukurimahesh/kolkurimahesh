@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - MAHESH KOLKURI</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    
+    <!-- navbar starts -->
+    <nav
+  id="navbar-top"
+  class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+>
+  <div class="container-fluid px-5">
+    <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d">
+      Portfolio
+    </a>
+    <button
+      class="navbar-toggler d-md-none"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="bi bi-menu-button-fill"></i>
+    </button>
+    <div
+      class="collapse navbar-collapse justify-content-center"
+      id="navbarNav"
+    >
+      <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Project">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Education">Education</a>
+        </li>
+      </ul>
+    </div>
+    <a href="#contact-section">
+    <button class="btn btn-primary ms-4 py-2 px-4 rounded-pill d-none d-md-block">
+      Contact
+    </button></a>
+  </div>
+</nav>
+
+<!-- Sections -->
+
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section id="Home" class="py-5">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">MAHESH KOLKURI</span>
+          </h2>
+          <p class="text-muted">
+            Dynamic SAP professional with expertise in implementation and optimization, dedicated to driving efficiency and delivering impactful solutions for businesses.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Hire Me
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/banner-01.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- about section starts -->
+    <section id="About" class="py-5">
+     <div class="heading text-center pt-5">
+      <h2>About</h2>
+      <div class="text-center" data-aos="slide-left">
+        <div class="heading mt-5 mt-md-3">
+          <p class="text-muted text-center">  I am an enthusiastic Business Intelligence professional with a Master’s in 
+            Management Information Systems. With a strong foundation in data analytics, mining, and visualization, 
+            I specialize in leveraging tools like Power BI, Tableau, and SQL to extract actionable insights from large datasets. 
+            My experience in designing and implementing data-driven solutions empowers organizations to make informed business decisions. 
+            As an effective communicator, I excel at translating complex findings for both technical and non-technical audiences. 
+            I am eager to contribute to impactful projects that drive organizational success and foster innovation.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <a
+              href="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/Mahesh%20Kolkuri_Resume_new.pdf"
+              download="SampleCV"
+              style="text-decoration: none;color: #fff;"
+            >Download CV</a>
+          </button>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <section id="Experience" class="py-5">
+      <div class="heading text-center">
+      <h2>Experience</h2>
+      <div class="row justify-content-evenly mt-5">
+          <!-- Experience Card 1 -->
+          <div class="col-10 col-md-4 d-flex align-items-stretch" data-aos="fade-up">
+              <div class="service-card flex-fill">
+                  <div class="img">
+                      <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/service-icon2.png" class="w-25 img-fluid" alt="BNP Paribas Logo">
+                  </div>
+                  <div class="container">
+                      <h4>Freelancer</h4>
+                      <h5>Customer Relationship Manager (CRM) - House construction</h5>
+                      <ul>
+                          <li>Acted as the main liaison between clients and project teams, ensuring clear communication and timely responses.</li>
+                          <li>Coordinated effectively to resolve issues and address client concerns promptly, fostering smooth project progress.</li>
+                          <li>Drafted, reviewed, and ensured compliance with contracts and proposals, aligning with client needs and project specifications.</li>
+                          <li>Implemented a client feedback system, driving a 20% increase in customer satisfaction scores within six months.</li>
+                          <li>Managed residential construction projects, achieving a 95% client satisfaction rate, and negotiated contracts to increase project profitability by 15%</li>
+                      </ul>
+                      <p><strong>Dates:</strong> May 2022 - Mar 2023 | Hyderabad, India</p>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Experience Card 2 -->
+          <div class="col-10 col-md-4 d-flex align-items-stretch" data-aos="fade-up">
+              <div class="service-card flex-fill">
+                  <div class="img">
+                      <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/service-icon1.png" class="w-25 img-fluid" alt="Sapiens Logo">
+                  </div>
+                  <div class="container">
+                      <h4>Freelance</h4>
+                      <h5>Site Supervisor</h5>
+                      <ul>
+                          <li>Managed construction projects from planning to completion.</li>
+                          <li>Supervised subcontractors and site personnel.</li>
+                          <li>Maintained quality control and safety standards.</li>
+                          <li>Monitored budgets and approved expenditures.</li>
+                          <li>Liaised with clients and stakeholders, providing regular updates.</li>
+                          <li>Completed the projects, achieving a 10% reduction in average project costs and ensuring all projects met deadlines and quality standards.</li>
+                      </ul>
+                      <p><strong>Dates:</strong> May 2021 - Feb 2022 | Hyderabad, India</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+<!-- project section starts here -->
+<section id="Project" class="py-5">
+  <div class="heading text-center pt-5">
+      <h3>Projects</h3>
+  </div>
+  <div class="project-body">
+      <div class="row justify-content-evenly px-4">
+          <div class="row justify-content-evenly mt-5">
+              <!-- Project 1 -->
+              <div class="post col-md-4 game all col-10 mt-3 mt-md-0 d-flex align-items-stretch" data-aos="fade-up">
+                  <div class="card flex-fill">
+                      <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/p1.png" class="card-img-top" alt="IMPACT MODEL" />
+                      <div class="content" style="display: none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.7); color: white; padding: 10px; text-align: left;">
+                          <div class="button-group">
+                              <button class="close" style="display: inline-block; float: right; background: none; border: none; color: white; font-size: 20px;">✖</button>
+                          </div>
+                          <ul>
+                              <li>Tools: Power BI, Tableau, Microsoft Excel</li>
+                              <li>Identified key performance questions for Johnson & Johnson and Pfizer post-pandemic.</li>
+                              <li>Extracted and refined financial data from 10-K reports and SEC/Edgar website.</li>
+                              <li>Conducted data analysis using pivot tables and pie charts for revenue comparison.</li>
+                              <li>Tracked outcomes by analyzing 10-K data and updating revenue representation charts.</li>
+                          </ul>
+                      </div>
+                      <div class="card-body text-center">
+                          <h4 class="card-title">IMPACT MODEL</h4>
+                          <button class="collapsible">Read More</button>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Project 2 -->
+              <div class="post col-md-4 game all col-10 mt-3 mt-md-0 d-flex align-items-stretch" data-aos="fade-up">
+                  <div class="card flex-fill">
+                      <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/p2.png" class="card-img-top" alt="Username Password Generator" />
+                      <div class="content" style="display: none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.7); color: white; padding: 10px; text-align: left;">
+                          <div class="button-group">
+                              <button class="close" style="display: inline-block; float: right; background: none; border: none; color: white; font-size: 20px;">✖</button>
+                          </div>
+                          <ul>
+                              <li>Tools: Python</li>
+                              <li>Developed error-handling using ‘try’ and ‘except’ for better reliability.</li>
+                              <li>Added input validation for names and birth year for integrity.</li>
+                              <li>Refactored password-building function to enhance optimization and usability.</li>
+                              <li>Used JSON for persistent employee data storage across program runs.</li>
+                          </ul>
+                      </div>
+                      <div class="card-body text-center">
+                          <h4 class="card-title">Username Password Generator with Error Checking and File IO</h4>
+                          <button class="collapsible">Read More</button>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div class="post col-md-4 game all col-10 mt-3 mt-md-0 d-flex align-items-stretch" data-aos="fade-up">
+                  <div class="card flex-fill">
+                      <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/p3.png" class="card-img-top" alt="Project 3" />
+                      <div class="content" style="display: none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.7); color: white; padding: 10px; text-align: left;">
+                          <div class="button-group">
+                              <button class="close" style="display: inline-block; float: right; background: none; border: none; color: white; font-size: 20px;">✖</button>
+                          </div>
+                          <ul>
+                              <li>Tools: SAP BW/4HANA 2.0</li>
+                              <li>Created a DSO for transactional data in SAP BW/4HANA.</li>
+                              <li>Learned advanced InfoObject creation and data loading techniques effectively.</li>
+                              <li>Utilized Eclipse and SAP GUI for practical implementation tasks.</li>
+                              <li>Achieved proficiency in Data Warehouse design through hands-on exercises.</li>
+                          </ul>
+                      </div>
+                      <div class="card-body text-center">
+                          <h4 class="card-title">Enterprise Data Warehouse - SAP BW/4HANA 2.0</h4>
+                          <button class="collapsible">Read More</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script>
+      document.querySelectorAll('.collapsible').forEach(button => {
+          button.addEventListener('click', () => {
+              const content = button.closest('.card').querySelector('.content');
+              const closeButton = content.querySelector('.close');
+
+              content.style.display = 'block';
+              button.style.display = 'none';
+              closeButton.style.display = 'inline-block';
+          });
+      });
+
+      document.querySelectorAll('.close').forEach(button => {
+          button.addEventListener('click', () => {
+              const content = button.closest('.content');
+              const readMoreButton = content.closest('.card').querySelector('.collapsible');
+
+              content.style.display = 'none';
+              button.style.display = 'none';
+              readMoreButton.style.display = 'inline-block';
+          });
+      });
+  </script>
+</section>
+
+<!-- projects section ends here -->
+
+<!-- skills section starts  -->
+<section id="Skills" class="py-5">
+  <div class="heading text-center pt-5">
+      <h3>Skills</h3>
+  </div>
+  <div class="container">
+      <!-- Data Visualization -->
+      <div class="row mb-4">
+          <div class="col-12">
+              <div class="card h-100">
+                  <div class="card-content p-4">
+                      <h4 class="brown-text light">Data Visualization:</h4>  
+                      <div class="row text-center">
+                          <div>
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/python.png" alt="Python">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/sas.png" alt="SAS">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/powerbi.png" alt="Power BI">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/tableau.png" alt="Tableau">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/excel.png" alt="Excel">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Enterprise Solutions -->
+      <div class="row mb-4">
+          <div class="col-12">
+              <div class="card h-100">
+                  <div class="card-content p-4">
+                      <h5 class="brown-text light">Enterprise Solutions:</h5>  
+                      <div class="row text-center">
+                          <div>
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/erp.png" alt="SAP ERP">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/bw.jpeg" alt="SAP BW">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/cai.png" alt="SAP CAI">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/hana.jpeg" alt="SAP HANA">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/sac.png" alt="SAC">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Databases and Web Technologies -->
+      <div class="row mb-4">
+          <div class="col-12">
+              <div class="card h-100">
+                  <div class="card-content p-4">
+                      <h6 class="brown-text light">Databases and Web Technologies:</h6>  
+                      <div class="row text-center">
+                          <div>
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/sql.png" alt="SQL">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/html1.jpeg" alt="HTML">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/css.png" alt="CSS">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/xano.png" alt="XANO">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Others -->
+      <div class="row mb-4">
+          <div class="col-12">
+              <div class="card h-100">
+                  <div class="card-content p-4">
+                      <h7 class="brown-text light">Others:</h7>  
+                      <div class="row text-center">
+                          <div>
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/admin.jpeg" alt="admin">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/vs.jpeg" alt="vs">
+                              <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/git.jpeg" alt="git">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+          
+              <!----  <div class="col s4 m2">
+                    <img alt="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/python.png" class="responsive-img" src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/python.png">
+                    "Python"
+                </div>
+                <div class="col s4 m2">
+                  <img alt="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/sas.png" class="responsive-img" src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/sas.png">
+                  "Power BI"
+                </div>
+                <div class="col s4 m2">
+                  <img alt="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/powerbi.jpeg" class="responsive-img" src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/powerbi.jpeg">
+                  "Power BI"
+                </div>
+                <div class="col s4 m2">
+                  <img alt="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/Tableau.png" class="responsive-img" src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/tableau.png">
+                  "Power BI"
+                </div>
+                <div class="col s4 m2">
+                  <img alt="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/excel.jpeg" class="responsive-img" src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/excel.jpeg">
+                  "Power BI"
+                </div>
+              </div> -->
+
+          </div>
+      </div>
+  </div>
+</section>
+
+  
+<!-- skills ends here -->
+
+    <!-- education section starts -->
+    <section id="Education" class="py-5">
+      <div class="heading text-center pt-5">
+          <h3>Education</h3>
+      </div>
+      <div class="container">
+          <div class="row justify-content-evenly mt-5">
+              <!-- Education 1 -->
+              <div class="col-12 col-md-5 col-lg-4 d-flex align-items-stretch" data-aos="fade-up">
+                  <div class="service-card flex-fill p-3">
+                      <div class="img text-center mb-3">
+                          <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/lu.png" class="w-25 img-fluid" alt="Lamar University Logo">
+                      </div>
+                      <div class="container">
+                          <h2>LAMAR UNIVERSITY</h2>
+                          <p>Beaumount, Texas, USA</p>
+                          <p>2023-2024</p>
+                          <p><strong>Degree:</strong> Master’s in Managment Information Systems</p>
+                          <p><strong>GPA:</strong> 4.0/4.0</p>
+                          <h3><strong>Relevant Courseworks:</strong></h3>
+                          <ul>
+                              <li>Data analytics</li>
+                              <li>Data Mining and Predictive analysis</li>
+                              <li>ERP Ecommerce</li>
+                              <li>Business Intelligemce</li>
+                              <li>ERP Overview</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Education 2 -->
+              <div class="col-12 col-md-5 col-lg-4 d-flex align-items-stretch" data-aos="fade-up">
+                  <div class="service-card flex-fill p-3">
+                      <div class="img text-center mb-3">
+                          <img src="file:///C:/Users/kolku/OneDrive/Documents/Mahesh/portfolio-website-main/images/gcet.jpeg" class="w-25 img-fluid" alt="VBIT Logo">
+                      </div>
+                      <div class="container">
+                          <h4>GEETHANJALI COLLEGE OF ENGINEERING AND TECHNOLOGY</h4>
+                          <p>Hyderabad, Telangana, India</p>
+                          <p>2018-2022</p>
+                          <p><strong>Degree:</strong> Bachelor in Electronics and communication engineering</p>
+                          <p><strong>CGPA:</strong> 7.8/10.0</p>
+                          <h3><strong>Relevant Courseworks:</strong></h3>
+                          <ul>
+                              <li>Compute programming</li>
+                              <li>Digital Electronics</li>
+                              <li>PROBABILITY THEORY AND STOCHASTIC PROCESSES</li>
+                              <li>SIGNAL AND SYSTEMS</li>
+                              <li>Linear intergrated circuits</li>
+                          </ul> 
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+      
+    <!-- education section ends here -->
+
+    <!-- contact section starts -->
+    <section  id="contact" class="py-5">
+      <div class="heading text-center">
+        
+        <h3>Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Hyderabad,India</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 7569080076</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>kolkurimahesh28@outlook.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-linkdin"></i>
+            </div>
+            <div class="col-11">
+              <p>kolkuri-mahesh-46</p>
+            </div>
+          </div>
+        </div>
+        
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <section id="contact-section">
+     <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#Experience">Experience</a>
+        <div class="vr"></div>
+        <a href="#Projects">Projects</a>
+        <div class="vr"></div>
+        <a href="#Skills">Skills</a>
+        <div class="vr"></div>
+        <a href="#Education">Education</a>
+      </div>
+      <button href="" class="rounded-pill dribble">
+          <i class="bi bi-dribbble"></i>
+        </button>
+        <button href="" class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button href="" class="rounded-pill behance">
+          <i class="bi bi-behance"></i>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2022 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+   <script>
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default anchor action
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+    
+        if (targetElement) {
+          // Scroll to the section smoothly
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+    </script>
+    
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
